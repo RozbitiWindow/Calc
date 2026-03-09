@@ -41,7 +41,7 @@ dotnet build
 Add the following line to your `~/.bashrc`:
 
 ```bash
-echo 'alias bkcalc="cd /home/okno/calc && dotnet run && cd .."' >> ~/.bashrc
+echo 'alias calc="cd /home/okno/calc && dotnet run && cd .."' >> ~/.bashrc
 ```
 
 Then reload your shell configuration:
@@ -53,7 +53,7 @@ source ~/.bashrc
 ### 4. Run the calculator
 
 ```bash
-bkcalc
+calc
 ```
 
 ---
@@ -71,6 +71,9 @@ After launching, simply type your expression and press **Enter**:
 
 > 15 * 7
 105
+
+> 15 * 7 + (8*6+2)
+155
 ```
 
 Type `exit` or press `Ctrl+C` to quit.
