@@ -41,7 +41,7 @@ dotnet build
 Add the following line to your `~/.bashrc`:
 
 ```bash
-echo 'alias calc="cd /home/okno/calc && dotnet run && cd .."' >> ~/.bashrc
+echo 'alias calc="cd /home/*your_username/calc && dotnet run && cd .."' >> ~/.bashrc
 ```
 
 Then reload your shell configuration:
